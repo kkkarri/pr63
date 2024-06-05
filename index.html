@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестування учнів</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="test-container">
+    <h1>Тестування учнів</h1>
+    <p>Скільки буде 3*4?</p>
+    <form id="testForm">
+        <label class="radio-container">12
+            <input type="radio" name="answer" value="12">
+            <span class="checkmark"></span>
+        </label>
+        <label class="radio-container">10
+            <input type="radio" name="answer" value="10">
+            <span class="checkmark"></span>
+        </label>
+        <label class="radio-container">7
+            <input type="radio" name="answer" value="7">
+            <span class="checkmark"></span>
+        </label>
+        <button type="button" onclick="checkAnswer()">Перевірити відповідь</button>
+    </form>
+    <p id="result" class="result"></p>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
